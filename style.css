@@ -1,0 +1,194 @@
+* {
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+  background: linear-gradient(to bottom, #fff, royalblue, black);
+  min-height: 782px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-image: url(pexels-polina-kovaleva-5717415.jpg);
+  background-size:cover;
+  
+  
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+  border-radius: 25px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 35vw;
+  font-size: 70px;
+}
+
+h2{
+  color: cyan;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 70px;
+
+  margin-right: auto;
+  margin-left: auto;
+}
+
+form {
+  margin-right: auto;
+  margin-left: auto;
+  width: 70vw;
+  text-align: center;
+}
+
+.tasks {
+  width: 90%;
+  margin: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+
+  background: rgba(248, 225, 10, 0.25);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10.5px);
+  -webkit-backdrop-filter: blur(10.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+
+  color: rgba(33, 37, 33, 0.822);
+  border-bottom: 4px solid white;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+input {
+  width: 50%;
+  margin: auto;
+  font-size: 30px;
+  padding: 10px;
+  border-radius: 15px;
+  background-color: #fff;
+  margin-bottom: 30px;
+
+}
+
+input:focus{
+  background-color: #dfd600;
+}
+
+button {
+  font-size: 40px;
+  margin-top: 200px;
+}
+
+.icon-box-add {
+  background-color: rgb(87, 109, 92);
+  font-size: 600 px;
+  border-radius: 15px;
+  padding: 5px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.bin-Angry {
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+
+.icon-star-full {
+  padding: 20px;
+  margin: auto;
+  font-size: 40px;
+  color: rgba(255, 255, 255, 0.719);
+}
+
+p {
+  width: 70%;
+  padding: 20px;
+  font-size: 30px;
+  margin: auto;
+  border: 2px solid;
+  border-radius: 15px;
+  background-color: darkgrey;
+}
+
+.icon-bin,
+.icon-angry2 ,.icon-heart{
+  padding: 20px;
+  margin: 5px;
+  font-size: 40px;
+}
+
+.icon-angry2 {
+  
+  color: #dfd600;
+  font-size: 40px;
+}
+
+.icon-bin:hover {
+  font-size: larger;
+  cursor: pointer;
+  font-size: 50px;
+}
+
+.icon-angry2:hover {
+  font-size: larger;
+  cursor: pointer;
+  font-size: 50px;
+}
+
+.icon-star-full:hover {
+  color: #fff702;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.icon-box-add:hover {
+  font-size: 50px;
+  cursor: pointer;
+}
+
+:hover {
+  transition: 0.5s;
+}
+
+.goldenStar{
+  color: gold;
+}
+
+.icon-heart{
+  
+  color: red;
+font-size: 45px;
+}
+
+
+.dn{
+  display: none;
+}
+.icon-heart:hover{
+  cursor: pointer;
+  font-size: 40px;
+}
+
+.textDecor{
+  text-decoration-line: line-through;
+text-decoration-style: wavy;
+}
+
+

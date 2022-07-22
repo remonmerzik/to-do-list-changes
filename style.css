@@ -18,9 +18,7 @@ body {
   min-height: 782px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   background-image: url(pexels-polina-kovaleva-5717415.jpg);
-  background-size:cover;
-  
-  
+  background-size: cover;
 }
 
 h1 {
@@ -33,7 +31,7 @@ h1 {
   font-size: 70px;
 }
 
-h2{
+h2 {
   color: cyan;
 }
 
@@ -42,7 +40,6 @@ h2{
   flex-wrap: wrap;
   align-items: center;
   margin-top: 70px;
-
   margin-right: auto;
   margin-left: auto;
 }
@@ -60,14 +57,12 @@ form {
   margin-right: auto;
   margin-left: auto;
   text-align: center;
-
   background: rgba(248, 225, 10, 0.25);
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   backdrop-filter: blur(10.5px);
   -webkit-backdrop-filter: blur(10.5px);
   border-radius: 10px;
   border: 1px solid rgba(255, 255, 255, 0.18);
-
   color: rgba(33, 37, 33, 0.822);
   border-bottom: 4px solid white;
   display: flex;
@@ -83,10 +78,9 @@ input {
   border-radius: 15px;
   background-color: #fff;
   margin-bottom: 30px;
-
 }
 
-input:focus{
+input:focus {
   background-color: #dfd600;
 }
 
@@ -107,7 +101,6 @@ button {
 .bin-Angry {
   display: flex;
   flex-wrap: wrap;
- 
 }
 
 .icon-star-full {
@@ -128,14 +121,14 @@ p {
 }
 
 .icon-bin,
-.icon-angry2 ,.icon-heart{
+.icon-angry2,
+.icon-heart {
   padding: 20px;
   margin: 5px;
   font-size: 40px;
 }
 
 .icon-angry2 {
-  
   color: #dfd600;
   font-size: 40px;
 }
@@ -167,28 +160,24 @@ p {
   transition: 0.5s;
 }
 
-.goldenStar{
+.goldenStar {
   color: gold;
 }
 
-.icon-heart{
-  
+.icon-heart {
   color: red;
-font-size: 45px;
+  font-size: 45px;
 }
 
-
-.dn{
+.dn {
   display: none;
 }
-.icon-heart:hover{
+.icon-heart:hover {
   cursor: pointer;
   font-size: 40px;
 }
 
-.textDecor{
+.textDecor {
   text-decoration-line: line-through;
-text-decoration-style: wavy;
+  text-decoration-style: wavy;
 }
-
-
